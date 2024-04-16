@@ -19,7 +19,8 @@ class No {
           this.cabeca = novoNo;
           this.cauda = novoNo;
         } else {
-          this.cauda.proximo = novoNo; //SE A FILA NÃO ESTIVER VAZIA, ADICIONA O NOVO NO AO FINAL DA FILA. O PROXIMO DO NÓ QUE ATUALMENTE É A CAUDA É CONFIGURADO PARA APONTAR PARA O NOVO NÓ, E O NOVO NÓ SE TORNA A NOVA CAUDA.
+          this.cauda.proximo = novoNo; //SE A FILA NÃO ESTIVER VAZIA, ADICIONA O NOVO NO AO FINAL DA FILA. O PROXIMO DO NÓ QUE ATUALMENTE 
+            //É A CAUDA É CONFIGURADO PARA APONTAR PARA O NOVO NÓ, E O NOVO NÓ SE TORNA A NOVA CAUDA.
           this.cauda = novoNo;
         }
         this.tamanho++; //ADICIONA 1 NO TAMANHO DA FILA
